@@ -42,9 +42,9 @@
           largesize = 35;
         };
         controlcenter = {
-          BatteryShowPercentage = true;
-          Bluetooth = true;
-          Sound = true;
+          BatteryShowPercentage = false;
+          Bluetooth = false;
+          Sound = false;
         };
         trackpad = {
           Clicking = true;
