@@ -31,7 +31,7 @@
           ShowMountedServersOnDesktop = false;
           ShowRemovableMediaOnDesktop = false;
           FXDefaultSearchScope = "SCcf";
-          FXPreferredViewStyle = "Nlsv";
+          FXPreferredViewStyle = "clmv";
           NewWindowTarget = "Computer";
         };
         dock = {
