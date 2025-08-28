@@ -20,12 +20,19 @@
 
       # MacOS defaults.
       system.defaults = {
+        NSGlobalDomain = {
+          AppleInterfaceStyle = "Dark";
+          AppleShowAllExtensions = true;
+        };
         finder = {
           AppleShowAllFiles = true;
           ShowExternalHardDrivesOnDesktop = false;
           ShowHardDrivesOnDesktop = false;
           ShowMountedServersOnDesktop = false;
           ShowRemovableMediaOnDesktop = false;
+          FXDefaultSearchScope = "SCcf";
+          FXPreferredViewStyle = "Nlsv";
+          NewWindowTarget = "Computer";
         };
         dock = {
           autohide = true;
@@ -33,6 +40,18 @@
           show-recents = false;
           magnification = true;
           largesize = 35;
+        };
+        controlcenter = {
+          BatteryShowPercentage = true;
+          Bluetooth = true;
+          Sound = true;
+        };
+        trackpad = {
+          Clicking = true;
+          TrackpadRightClick = true;
+        };
+        ".GlobalPreferences" = {
+          "com.apple.mouse.scaling" = 3.0;
         };
       };
 
