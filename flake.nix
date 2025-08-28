@@ -33,6 +33,7 @@
           FXDefaultSearchScope = "SCcf";
           FXPreferredViewStyle = "clmv";
           NewWindowTarget = "Computer";
+          ShowPathbar = true;
         };
         dock = {
           autohide = true;
