@@ -18,6 +18,24 @@
         [ pkgs.vim
         ];
 
+      # MacOS defaults.
+      system.defaults = {
+        finder = {
+          AppleShowAllFiles = true;
+          ShowExternalHardDrivesOnDesktop = false;
+          ShowHardDrivesOnDesktop = false;
+          ShowMountedServersOnDesktop = false;
+          ShowRemovableMediaOnDesktop = false;
+        };
+        dock = {
+          autohide = true;
+          tilesize = 30;
+          show-recents = false;
+          magnification = true;
+          largesize = 35;
+        };
+      };
+
       homebrew = {
         enable = true;
         # onActivation.cleanup = "uninstall";
