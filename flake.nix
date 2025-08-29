@@ -156,7 +156,6 @@
           "slack"
           "spotify"
           "tailscale-app"
-          "thunderbird"
           "visual-studio-code"
           "warp"
           "webex"
