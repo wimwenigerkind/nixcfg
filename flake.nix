@@ -69,7 +69,7 @@
 
       homebrew = {
         enable = true;
-        # onActivation.cleanup = "uninstall";
+        onActivation.cleanup = "uninstall";
         brews = [
           "ansible"
           "atuin"
