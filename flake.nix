@@ -56,6 +56,17 @@
         };
       };
 
+      security = {
+        pam = {
+          services = {
+            sudo_local = {
+              touchIdAuth = true;
+              watchIdAuth = true;
+            };
+          };
+        };
+      };
+
       homebrew = {
         enable = true;
         # onActivation.cleanup = "uninstall";
