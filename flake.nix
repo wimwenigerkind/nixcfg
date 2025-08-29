@@ -158,7 +158,6 @@
           "tailscale-app"
           "visual-studio-code"
           "warp"
-          "webex"
           "whatsapp"
         ];
 
