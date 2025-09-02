@@ -14,9 +14,10 @@
 
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
-      environment.systemPackages =
-        [ pkgs.vim
-        ];
+      environment.systemPackages = [
+        pkgs.vim
+        pkgs.devenv
+      ];
 
       # MacOS defaults.
       system.defaults = {
