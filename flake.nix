@@ -160,6 +160,7 @@
           "visual-studio-code"
           "warp"
           "whatsapp"
+          "zed"
         ];
 
         taps = [
