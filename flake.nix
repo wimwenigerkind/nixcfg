@@ -128,6 +128,7 @@
           "xh"
           "yarn"
           "zsh-autosuggestions"
+          "acli"
         ];
 
         casks = [
