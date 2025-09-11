@@ -162,6 +162,7 @@
           "warp"
           "whatsapp"
           "zed"
+          "arc"
         ];
 
         taps = [
