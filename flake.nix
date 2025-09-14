@@ -17,6 +17,7 @@
       environment.systemPackages = [
         pkgs.vim
         pkgs.devenv
+        pkgs.zoxide
       ];
 
       # MacOS defaults.
