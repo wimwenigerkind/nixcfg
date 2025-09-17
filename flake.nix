@@ -18,6 +18,7 @@
         pkgs.vim
         pkgs.devenv
         pkgs.zoxide
+        pkgs.neofetch
       ];
 
       # MacOS defaults.
