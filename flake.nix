@@ -134,6 +134,7 @@
           "yarn"
           "zsh-autosuggestions"
           "acli"
+          "terraform"
         ];
 
         casks = [
@@ -182,6 +183,7 @@
           "symfony-cli/tap"
           "teamookla/speedtest"
           "wimwenigerkind/tap"
+          "hashicorp/tap"
         ];
       };
 
