@@ -168,6 +168,7 @@
           "zed"
           "arc"
           "shopware-cli"
+          "zoom"
         ];
 
         taps = [
