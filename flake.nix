@@ -21,6 +21,7 @@
         pkgs.neofetch
         pkgs.uv
         pkgs.php84Extensions.zstd
+        pkgs.go-task
       ];
 
       # MacOS defaults.
