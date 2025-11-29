@@ -144,7 +144,6 @@
           "claude"
           "cloudflare-warp"
           "discord"
-          "docker-desktop"
           "figma"
           "firefox"
           "ghostty"
