@@ -137,6 +137,7 @@
           "terraform"
           "sketchybar"
           "ffmpeg"
+          "bpytop"
         ];
 
         casks = [
