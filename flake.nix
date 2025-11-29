@@ -136,6 +136,7 @@
           "acli"
           "terraform"
           "sketchybar"
+          "ffmpeg"
         ];
 
         casks = [
