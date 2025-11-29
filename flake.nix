@@ -135,6 +135,7 @@
           "zsh-autosuggestions"
           "acli"
           "terraform"
+          "sketchybar"
         ];
 
         casks = [
@@ -183,6 +184,7 @@
           "teamookla/speedtest"
           "wimwenigerkind/tap"
           "hashicorp/tap"
+          "FelixKratz/formulae"
         ];
       };
 
