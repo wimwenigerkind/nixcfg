@@ -20,6 +20,7 @@
         pkgs.zoxide
         pkgs.neofetch
         pkgs.uv
+        pkgs.php84Extensions.zstd
       ];
 
       # MacOS defaults.
