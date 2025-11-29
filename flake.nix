@@ -120,7 +120,6 @@
           "python@3.13"
           "rclone"
           "readline"
-          "shopware-cli"
           "speedtest"
           "sql-dump-cli"
           "starship"
@@ -169,6 +168,7 @@
           "whatsapp"
           "zed"
           "arc"
+          "shopware-cli"
         ];
 
         taps = [
@@ -209,7 +209,7 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#MacBook-Pro-von-Wim
-    darwinConfigurations."MacBook-Pro-von-Wim" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."Wim-Wenigerkinds-MacBook-Pro" = nix-darwin.lib.darwinSystem {
       modules = [ configuration ];
     };
   };
