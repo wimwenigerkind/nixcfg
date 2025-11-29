@@ -165,7 +165,6 @@
           "spotify"
           "tailscale-app"
           "visual-studio-code"
-          "warp"
           "whatsapp"
           "zed"
           "arc"
