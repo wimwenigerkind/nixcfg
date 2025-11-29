@@ -19,6 +19,7 @@
         pkgs.devenv
         pkgs.zoxide
         pkgs.neofetch
+        pkgs.uv
       ];
 
       # MacOS defaults.
