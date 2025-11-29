@@ -29,6 +29,7 @@
         NSGlobalDomain = {
           AppleInterfaceStyle = "Dark";
           AppleShowAllExtensions = true;
+          _HIHideMenuBar = false;
         };
         finder = {
           AppleShowAllFiles = true;
