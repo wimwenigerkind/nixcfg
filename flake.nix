@@ -139,6 +139,7 @@
           "ffmpeg"
           "bpytop"
           "abctl"
+          "yt-dlp"
         ];
 
         casks = [
