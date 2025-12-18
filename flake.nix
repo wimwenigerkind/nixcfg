@@ -172,6 +172,7 @@
           "arc"
           "shopware-cli"
           "zoom"
+          "ngrok"
         ];
 
         taps = [
