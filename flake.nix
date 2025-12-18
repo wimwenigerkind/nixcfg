@@ -141,6 +141,8 @@
           "abctl"
           "yt-dlp"
           "ncdu"
+          "gpg"
+          "age"
         ];
 
         casks = [
