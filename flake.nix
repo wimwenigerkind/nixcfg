@@ -140,6 +140,7 @@
           "bpytop"
           "abctl"
           "yt-dlp"
+          "ncdu"
         ];
 
         casks = [
