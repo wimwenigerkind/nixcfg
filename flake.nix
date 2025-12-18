@@ -138,6 +138,7 @@
           "sketchybar"
           "ffmpeg"
           "bpytop"
+          "abctl"
         ];
 
         casks = [
@@ -188,6 +189,7 @@
           "wimwenigerkind/tap"
           "hashicorp/tap"
           "FelixKratz/formulae"
+          "airbytehq/tap"
         ];
       };
 
