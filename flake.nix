@@ -143,6 +143,7 @@
           "ncdu"
           "gpg"
           "age"
+          "nginx"
         ];
 
         casks = [
