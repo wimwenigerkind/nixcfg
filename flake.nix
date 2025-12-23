@@ -179,6 +179,7 @@
           "shopware-cli"
           "zoom"
           "ngrok"
+          "utm"
         ];
 
         taps = [
