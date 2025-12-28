@@ -144,6 +144,7 @@
           "gpg"
           "age"
           "nginx"
+          "hugo"
         ];
 
         casks = [
