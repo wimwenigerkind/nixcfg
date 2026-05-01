@@ -196,9 +196,9 @@
           "utm"
           "vlc"
           "vivaldi"
-	      "logitech-g-hub"
-		  "bruno"
-		  "elgato-stream-deck"
+          "logitech-g-hub"
+          "bruno"
+          "elgato-stream-deck"
         ];
 
         taps = [
