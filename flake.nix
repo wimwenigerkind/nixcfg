@@ -158,6 +158,7 @@
           "doggo"
           "helm"
           "caddy"
+          "k6"
         ];
 
         casks = [
