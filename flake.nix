@@ -2,8 +2,8 @@
   description = "nix-darwin configuration for development on MacBook Pro";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-25.05-darwin";
-    nix-darwin.url = "github:nix-darwin/nix-darwin/nix-darwin-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nix-darwin.url = "github:nix-darwin/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
   };
 
@@ -18,7 +18,7 @@
         pkgs.vim
         pkgs.devenv
         pkgs.zoxide
-        pkgs.neofetch
+        pkgs.fastfetch
         pkgs.uv
         pkgs.php84Extensions.zstd
         pkgs.go-task
@@ -200,6 +200,7 @@
           "logitech-g-hub"
           "bruno"
           "elgato-stream-deck"
+          "temurin@25"
         ];
 
         taps = [
