@@ -57,10 +57,15 @@
     pulse.enable = true;
   };
 
+  programs.zsh.enable = true;
+  programs.starship.enable = true;
+  programs.zoxide.enable = true;
+
   users.users.wim = {
     isNormalUser = true;
     description = "Wim Wenigerkind";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh;
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGyxhQh+Qb2MirW1pmDETFQQU3vqomqN+nvDUJq8oFCG"
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEqtPxLeJ9s52htW/LU8BNqJM9h5ud97bwW93WIQrjz+"
