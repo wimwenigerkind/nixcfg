@@ -14,14 +14,15 @@
 
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
-      environment.systemPackages = [
-        pkgs.vim
-        pkgs.devenv
-        pkgs.zoxide
-        pkgs.fastfetch
-        pkgs.uv
-        pkgs.php84Extensions.zstd
-        pkgs.go-task
+      environment.systemPackages = with pkgs; [
+        vim
+        devenv
+        zoxide
+        fastfetch
+        uv
+        php84Extensions.zstd
+        go-task
+        secretspec
       ];
 
       # MacOS defaults.
@@ -50,7 +51,7 @@
           largesize = 35;
         };
         controlcenter = {
-          BatteryShowPercentage = false;
+          BatteryShowPercentage = true;
           Bluetooth = false;
           Sound = false;
         };
@@ -222,6 +223,8 @@
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
+
+      nix.settings.trusted-users = [ "root" "wim.wenigerkind" ];
 
       programs = {
         direnv.enable = true;
