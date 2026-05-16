@@ -23,5 +23,13 @@
         ./hosts/nixos-dell-optiplex
       ];
     };
+
+    nixosConfigurations."nixos-macbookair-2011" = nixpkgs.lib.nixosSystem {
+      specialArgs = { inherit self; };
+      modules = [
+        ./modules/common.nix
+        ./hosts/nixos-macbookair-2011
+      ];
+    };
   };
 }
